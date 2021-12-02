@@ -43,7 +43,7 @@ header nav a:hover {
 /*filme principal*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-peaky.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-peaky.jpg');
     
     height: 400px;
     background-size: cover;
@@ -96,11 +96,11 @@ header nav a:hover {
 }
 
 .box-filme {
-    height: 100%;
-    width: 100%;
-    display: block;
+    height: 20%;
+    width: 20%;
+    display: grid;
 }
 
 .carrosel-filmes {
-    margin-top: 5px;
+    margin-top: 10px;
 }
